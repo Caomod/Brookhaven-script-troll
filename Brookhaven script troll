@@ -502,6 +502,67 @@ OrionLib:MakeNotification({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Tora skybox",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17901538078"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "forest test",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100931556"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "soon",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = ""
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+
 
 
 
