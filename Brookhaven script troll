@@ -1,0 +1,547 @@
+-----This script is free, you can refer to the script -----
+
+local player = game.Players.LocalPlayer
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
+
+OrionLib:MakeNotification({
+	Name = "Work",
+	Content = "Script made iby Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Window = OrionLib:MakeWindow({Name = "brookhaven script troll avatar", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Items"
+})
+
+Tab:AddButton({
+	Name = "Cute gold sword",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17899923217"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Warp(black hole)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17900918599"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+			
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Stack of Paper Hat(Covering the entire map is very suitable for trolling all server)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17900973647"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+			
+  	end    
+})
+
+Tab:AddButton({
+	Name = "new salmon!!(Big fish)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17900412562"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+  	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+Tab:AddButton({
+	Name = "shoulder test",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100684824"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Car 1 (YOU MUST COMBINE WITH CAR 2)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17901469198"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Car 2",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17901476467"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BIG HOUSE(Super big)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18101787305"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cool Evil Sponge",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100795481"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "trol",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100881047"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cool Friendly Star",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18102096668"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Huge Pride Hammer",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100314801"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Colloseum Test",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100716346"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "biggest :3 ever!!",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100566475"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "HAPPY HEAD",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100348824"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+			
+  	end    
+})
+
+Tab:AddButton({
+	Name = "boogie bomb(the whole server is black )",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100522261"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+Tab:AddButton({
+	Name = "toad",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100228850"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "REX",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17900817639"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "biglily",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100202765"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Supernova(black hole but big)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17901519302"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "unname(box)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100145664"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "skybox",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "18100143127"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BEN(skybox)",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = "17901274960"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "soon",
+	Callback = function()
+local args = {
+    [1] = "AskIfIdAvailable",
+    [2] = ""
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
+
+OrionLib:MakeNotification({
+	Name = "Sure",
+	Content = "Script made by Cáo mod",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+
+  	end    
+})
+
+
+
+
+local Tab2 = Window:MakeTab({
+	Name = "Mic",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab2:AddLabel("Script made by Cáo mod")
+Tab2:AddLabel("Thank you for using the script")
+Tab2:AddLabel("The script often encounters errors. We hope you understand")
+
+Tab2:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "tptool",
+	Callback = function()
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Equip to Click TP"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+ 
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "destroy script",
+	Callback = function()
+OrionLib:Destroy()
+  	end    
+})
