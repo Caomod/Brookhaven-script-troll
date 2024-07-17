@@ -11,7 +11,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-local Window = OrionLib:MakeWindow({Name = "brookhaven script troll avatar", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "brookhaven script glitch avatar", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
@@ -528,26 +528,6 @@ Tab:AddButton({
 local args = {
     [1] = "AskIfIdAvailable",
     [2] = "18100931556"
-}
-
-game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
-
-OrionLib:MakeNotification({
-	Name = "Sure",
-	Content = "Script made by Cáo mod",
-	Image = "rbxassetid://4483345998",
-	Time = 4
-})
-
-  	end    
-})
-
-Tab:AddButton({
-	Name = "cube(fake hacker)",
-	Callback = function()
-local args = {
-    [1] = "AskIfIdAvailable",
-    [2] = "18101645743"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
