@@ -184,11 +184,11 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
-	Name = "Cool Evil Sponge",
+	Name = "",
 	Callback = function()
 local args = {
     [1] = "AskIfIdAvailable",
-    [2] = "18100795481"
+    [2] = ""
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
