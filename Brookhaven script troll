@@ -44,11 +44,11 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
-	Name = "Warp(black hole)",
+	Name = "",
 	Callback = function()
 local args = {
     [1] = "AskIfIdAvailable",
-    [2] = "17900918599"
+    [2] = ""
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
@@ -224,11 +224,11 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
-	Name = "Cool Friendly Star",
+	Name = "",
 	Callback = function()
 local args = {
     [1] = "AskIfIdAvailable",
-    [2] = "18102096668"
+    [2] = ""
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
@@ -403,11 +403,11 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
-	Name = "Supernova(black hole but big)",
+	Name = "",
 	Callback = function()
 local args = {
     [1] = "AskIfIdAvailable",
-    [2] = "17901519302"
+    [2] = ""
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
@@ -463,11 +463,11 @@ OrionLib:MakeNotification({
 })
 
 Tab:AddButton({
-	Name = "BEN(skybox)",
+	Name = "",
 	Callback = function()
 local args = {
     [1] = "AskIfIdAvailable",
-    [2] = "17901274960"
+    [2] = ""
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clothe1s"):FireServer(unpack(args))
